@@ -6,9 +6,9 @@
 
 namespace XLSXTemplate;
 
-use \PHPExcel_IOFactory;
-use \PHPExcel_Worksheet;
-use \PHPExcel_Worksheet_RowIterator;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use PhpOffice\PhpSpreadsheet\Worksheet\RowIterator;
 
 class Templator
 {
